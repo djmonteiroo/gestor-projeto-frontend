@@ -37,7 +37,7 @@ Future<bool> criarRegistroColaborador(ColaboradorModel colaboradorModel) async {
 Future<List<ColaboradorModel>> consultaLsColaboradores(int ativo) async {
   final response = await http.get(Uri.parse(host +
       endPointConsultarColaboradores +
-      "?idGestor=6&inAtivo=${ativo}")); // Usando o filtro ativo
+      "?idGestor=1&inAtivo=${ativo}")); // Usando o filtro ativo
 
   if (response.statusCode == 200) {
     List<dynamic> jsonResponse =

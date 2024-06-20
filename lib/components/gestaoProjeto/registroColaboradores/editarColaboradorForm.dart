@@ -22,7 +22,7 @@ class _EditarColaboradorFormState extends State<EditarColaboradorForm> {
   late TextEditingController _codigoController;
   late TextEditingController _colaboradorController;
   late TextEditingController _funcaoController;
-  bool _ativo = false; // Alterado para bool
+  bool _ativo = false;
   List<CargoModel> _listaCargos;
 
   _EditarColaboradorFormState(this._listaCargos);

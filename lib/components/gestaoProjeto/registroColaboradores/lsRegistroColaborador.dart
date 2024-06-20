@@ -255,6 +255,7 @@ class _LsColaboradoresState extends State<LsColaboradores> {
         final matchNome = colaborador.nmColaborador
             .toLowerCase()
             .contains(_filtroNome.toLowerCase());
+
         final matchCargo = colaborador.nmCargo
             .toLowerCase()
             .contains(_filtroCargo.toLowerCase());

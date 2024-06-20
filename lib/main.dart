@@ -1,5 +1,6 @@
 import 'package:dasboard_project/config/size_config.dart';
 import 'package:dasboard_project/dasboard.dart';
+import 'package:dasboard_project/loginUsuario.dart';
 import 'package:dasboard_project/style/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
@@ -22,6 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           primaryColor: Colors.blue,
           scaffoldBackgroundColor: AppColors.primaryBg),
+      // home: LoginUsuario()
       home: Dashboard(),
     );
   }
